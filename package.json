@@ -1,10 +1,23 @@
 {
-  "name": "npm",
-  "version": "1.0.0",
+  "name": "aweme",
+  "version": "0.0.1",
+  "description": "抖音，摧毁美好生活",
+  "keywords": [
+    "抖音",
+    "douyin"
+  ],
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hehex9/aweme.js"
+  },
+  "main": "./lib/api",
   "dependencies": {
     "axios": "^0.19.2",
     "canvas": "^2.6.1",
-    "jsdom": "^16.1.0"
+    "jsdom": "^16.2.0"
   },
   "devDependencies": {
     "@hehe.x/eslint-config": "^0.1.2",
