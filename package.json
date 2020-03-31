@@ -14,16 +14,19 @@
     "url": "https://github.com/hehex9/aweme.js"
   },
   "main": "./lib/api",
+  "scripts": {
+    "lint": "eslint lib"
+  },
   "dependencies": {
     "axios": "^0.19.2",
     "canvas": "^2.6.1",
-    "jsdom": "^16.2.0"
+    "jsdom": "^16.2.2"
   },
   "devDependencies": {
-    "@hehe.x/eslint-config": "^0.1.2",
-    "@hehe.x/prettier": "^1.0.0",
+    "@hehe.x/eslint-config": "^0.2.4",
+    "@hehe.x/prettier": "^1.0.1",
     "eslint": "^6.8.0",
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.2"
   },
   "eslintConfig": {
     "extends": "@hehe.x"
