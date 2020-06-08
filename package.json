@@ -25,8 +25,8 @@
   "devDependencies": {
     "@hehe.x/eslint-config": "^0.2.4",
     "@hehe.x/prettier": "^1.0.1",
-    "eslint": "^6.8.0",
-    "prettier": "^2.0.2"
+    "eslint": "^7.2.0",
+    "prettier": "^2.0.5"
   },
   "eslintConfig": {
     "extends": "@hehe.x"
